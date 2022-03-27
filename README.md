@@ -8,9 +8,10 @@ This project work helps to predict the house prices (MEDV) based on given featur
 
 ## Data Description
 The dataset consists of 15 columns and 351 rows with the “label” column as its target column. The Boston Housing Dataset is a derived from information collected by the U.S. Census Service concerning housing in the area of Boston MA. The following describes the dataset columns:
+
 	CRIM 		- per capita crime rate by town
 
-	ZN 		- proportion of residential land zoned for lots over 25,000 sq. ft.
+	ZN 		  - proportion of residential land zoned for lots over 25,000 sq. ft.
 
 	INDUS 	- proportion of non-retail business acres per town.
 
@@ -18,7 +19,7 @@ The dataset consists of 15 columns and 351 rows with the “label” column as i
 
 	NOX 		- nitric oxides concentration (parts per 10 million)
 
-	RM 		- average number of rooms per dwelling
+	RM 		  - average number of rooms per dwelling
 
 	AGE 		- proportion of owner-occupied units built prior to 1940
 
@@ -28,11 +29,13 @@ The dataset consists of 15 columns and 351 rows with the “label” column as i
 
 	TAX 		- full-value property-tax rate per $10,000
 
-	PTRATIO 	- pupil-teacher ratio by town
+	PTRATIO - pupil-teacher ratio by town
 
-	B 		- 1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town
+	B 		  - 1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town
+
 	LSTAT 	- % lower status of the population
-	MEDV 	- Median value of owner-occupied homes in $1000&#39;s
+
+	MEDV 	  - Median value of owner-occupied homes in $1000&#39;s
 
 ## Approach 
 For this project work, all necessary Python libraries, modules and dataset were first imported, and then followed by data visualization. Preprocessing and EDA was carried out before the models were built. Evaluation metrics as well such as precision, recall, and f1 score for all the models were also done. The whole code was written more in Jupyter Notebook and then exported to Google Colab 
